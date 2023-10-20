@@ -406,18 +406,17 @@ nav img:hover {
 }
 
 .hero-products2 .hero-img {
-    width: 100%;
+    width: 90%;
     object-fit: contain;
     opacity: 65%;
     position: relative;
-    right: 10%;
+    right: 8%;
     bottom: 3%;
 }
 .hero-products2 .portada-subtitulo {
   color: #7b7b7b;
   font-weight: 600;
 }
-
 
 
 
