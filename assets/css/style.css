@@ -354,7 +354,10 @@ nav img:hover {
     right: 10%;
     bottom: 1%;
 }
-
+.hero-products .portada-subtitulo {
+  color: #7b7b7b;
+  font-weight: 600;
+}
 
 
 
