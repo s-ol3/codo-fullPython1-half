@@ -384,7 +384,7 @@ nav img:hover {
 
 
 /*barf/////////////////////////////////////////*/
-.hero-products2 {
+/*.hero-products2 {
     position: relative;
     display: grid;
     width: 100%;
@@ -395,7 +395,7 @@ nav img:hover {
     overflow: hidden;
     background-color: var(--color-background-nav);
     background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
-}
+}*/
 
 .hero-products2 .hero-portada {
     /* align-self: center; */
@@ -405,20 +405,45 @@ nav img:hover {
     margin-top: 5em;
 }
 
-.hero-products2 .hero-img {
+/*.hero-products2 .hero-img {
     width: 90%;
     object-fit: contain;
     opacity: 65%;
     position: relative;
     right: 8%;
     bottom: 3%;
-}
+}*/
 .hero-products2 .portada-subtitulo {
   color: #7b7b7b;
   font-weight: 600;
 }
 
 
+/*img desbordando gris////////////////////////////////////////////////////*/
+.hero-products2 {
+    /* position: relative; */
+    display: grid;
+    width: 100%;
+    height: 45vh;
+    grid-template-columns: minmax(55vw, 4fr) 3fr;
+    grid-auto-rows: 88vh;
+    padding: 1.25em 3.5em;
+    overflow: hidden;
+    background-color: var(--color-background-nav);
+    background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
+    Z-INDEX: 9999;
+}
+
+.hero-products2 .hero-img {
+    width: 45%;
+    /* object-fit: contain; */
+    opacity: 75%;
+    position: absolute;
+    right: 8%;
+    bottom: 35%;
+    /* Z-INDEX: 999; */
+    object-fit: cover;
+}
 
 
 
