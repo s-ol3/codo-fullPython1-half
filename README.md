@@ -13,7 +13,7 @@ Comisión #23523
 ![CSS3](https://img.shields.io/badge/css3-black.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-black.svg?style=for-the-badge&logo=javascript&logoColor=white)
 
- 🔗 [Live FrontEnd](https://s-ol3.github.io/codo-fullPythonTP1/ "Live FrontEnd")
+ 🔗 [Live FrontEnd](https://s-ol3.github.io/codo-fullPython1-half/ "Live FrontEnd")
 
 
 
