@@ -356,18 +356,37 @@ nav img:hover {
     font-family: 'Dancing Script', cursive;
 }
 
-.hero-products .hero-img {
+/*.hero-products .hero-img {
     width: 110%;
     object-fit: contain;
     opacity: 55%;
     position: relative;
     right: 10%;
     bottom: 1%;
+}*/
+.hero-products .hero-img {
+    width: 100%;
+    object-fit: contain;
+    opacity: 55%;
+    position: relative;
+    right: 7%;
+    bottom: 4%;
 }
+
 .hero-products .portada-subtitulo {
   color: #7b7b7b;
   font-weight: 600;
 }
+
+.hero-products .portada-subtitulo {
+    color: var(--colorLetras1);
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    margin-bottom: 1.5em;
+    font-family: 'Unica One', cursive;
+    font-weight: 500;
+}
+
 
 /*barf/////////////////////////////////////////*/
 .hero-products2 {
@@ -385,7 +404,7 @@ nav img:hover {
 
 .hero-products2 .hero-portada {
     /* align-self: center; */
-    padding-left: 3.3em;
+    padding-left: 5em;
     z-index: 9;
     filter: drop-shadow(1px 1px 10px #0000006a);
     margin-top: 5em;
