@@ -330,7 +330,7 @@ nav img:hover {
 /*//////////////////////////half caratula, borrar lo de arriba////////////////////////////////////////////////////////////////////*/
 /*snacks///////////////////////////////////////*/
 .hero-products {
-    position: relative;
+    /*position: relative;     para sacar img fuera de la caratula */
     display: grid;
     width: 100%;
     height: 45vh;
@@ -344,10 +344,10 @@ nav img:hover {
 
 .hero-products .hero-portada {
     /* align-self: center; */
-    padding-left: 3.3em;
+    padding-left: 5em;
     z-index: 9;
     filter: drop-shadow(1px 1px 10px #0000006a);
-    MARGIN-TOP: 5EM;
+    margin-top: 5em;
 }
 
 .hero-portada .portada-titulo {
@@ -367,15 +367,22 @@ nav img:hover {
     right: 10%;
     bottom: 1%;
 }*/
-.hero-products .hero-img {
+/*.hero-products .hero-img {
     width: 100%;
     object-fit: contain;
     opacity: 55%;
     position: relative;
     right: 7%;
     bottom: 3%;
+}*/
+.hero-products .hero-img {
+    width: 30em;
+    object-fit: contain;
+    opacity: 75%;
+    position: absolute;
+    right: 4vw;
+    bottom: 38vh;
 }
-
 .hero-products .portada-subtitulo {
   color: #7b7b7b;
   font-weight: 600;
