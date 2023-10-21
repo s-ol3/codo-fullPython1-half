@@ -378,7 +378,7 @@ nav img:hover {
 .hero-products .hero-img {
     width: 30em;
     object-fit: contain;
-    opacity: 75%;
+    opacity: 85%;
     position: absolute;
     right: 4vw;
     bottom: 38vh;
@@ -472,7 +472,7 @@ nav img:hover {
 
 .hero-products2 .hero-img {
     width: 28em;
-    opacity: 75%;
+    opacity: 85%;
     position: absolute;
     right: 6vw;
     bottom: 35vh;
